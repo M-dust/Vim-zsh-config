@@ -10,9 +10,10 @@ Plug 'morhetz/gruvbox'
 Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-commentary'
 Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install'  }
-Plug 'sirver/ultisnips'
 call plug#end()
 
+"Make mouse integrations works for both iterm2 and vim
+set mouse=ni
 "Gruvbox setting
 set termguicolors
 colorscheme gruvbox
